@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.34de6062.chunk.css",
-    "main.js": "/static/js/main.c6dd67ed.chunk.js",
-    "main.js.map": "/static/js/main.c6dd67ed.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.87593f82.chunk.js": "/static/js/2.87593f82.chunk.js",
-    "static/js/2.87593f82.chunk.js.map": "/static/js/2.87593f82.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.50b08ce3c58afe8ef74db7b73bac6230.js": "/precache-manifest.50b08ce3c58afe8ef74db7b73bac6230.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/hig-icons/static/css/main.34de6062.chunk.css",
+    "main.js": "/hig-icons/static/js/main.68db6178.chunk.js",
+    "main.js.map": "/hig-icons/static/js/main.68db6178.chunk.js.map",
+    "runtime~main.js": "/hig-icons/static/js/runtime~main.2304958d.js",
+    "runtime~main.js.map": "/hig-icons/static/js/runtime~main.2304958d.js.map",
+    "static/js/2.87593f82.chunk.js": "/hig-icons/static/js/2.87593f82.chunk.js",
+    "static/js/2.87593f82.chunk.js.map": "/hig-icons/static/js/2.87593f82.chunk.js.map",
+    "index.html": "/hig-icons/index.html",
+    "precache-manifest.bf33839118e9993f0119d9ac89e38d6e.js": "/hig-icons/precache-manifest.bf33839118e9993f0119d9ac89e38d6e.js",
+    "service-worker.js": "/hig-icons/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/hig-icons/static/css/main.34de6062.chunk.css.map"
   }
 }
