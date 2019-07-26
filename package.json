@@ -1,7 +1,12 @@
 {
   "name": "hig-icons",
   "version": "0.1.0",
-  "private": true,
+  "description": "HIG icons",
+  "homepage": "https://dylankenneally.github.io/hig-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylankenneally/hig-icons.git"
+  },
   "dependencies": {
     "@hig/icons": "^3.1.0",
     "@hig/theme-context": "^3.0.0",
@@ -13,7 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
