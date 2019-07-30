@@ -6,7 +6,7 @@ import {
 	MuiThemeProvider,
 } from '@material-ui/core';
 import higTheme from './framework/higTheme';
-import IconView from './App';
+import IconView from './components/IconView';
 
 class App extends React.Component {
 	render() {
