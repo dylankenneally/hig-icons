@@ -1,5 +1,6 @@
 import React from 'react';
 import * as HIGIcons from "@hig/icons";
+import { TextField } from '@material-ui/core';
 
 let iconSet = [
 	{ name: 'AddFolder24', component: <HIGIcons.AddFolder24 /> },
@@ -323,15 +324,25 @@ let iconSet = [
 ];
 
 
-function App() {
-	let renderItems = iconSet.map(iconData => <tr><td>{iconData.name}</td><td>{iconData.component}</td></tr>);
+function IconView() {
+	const [searchFilter, setSearchFilter] = React.useState('');
+
+	let filterTest = searchFilter.toLocaleLowerCase();
+	let filtered = iconSet.filter(iconData => iconData.name.toLocaleLowerCase().includes(filterTest));
+
+	let renderItems = filtered.map(iconData => <tr key={iconData.name}><td>{iconData.name}</td><td>{iconData.component}</td></tr>);
 	return (
-		<table>
-			<tr><td>Number of icons</td><td>{iconSet.length}</td></tr>
-			{renderItems}
-		</table>
+		<>
+			<TextField label="Search/filter" value={searchFilter} onChange={event => setSearchFilter(event.target.value)} />
+			<table>
+				<tbody>
+					<tr><td>Number of icons</td><td>{iconSet.length}</td></tr>
+					{renderItems}
+				</tbody>
+			</table>
+		</>
 	);
 }
 
 
-export default App;
+export default IconView;
