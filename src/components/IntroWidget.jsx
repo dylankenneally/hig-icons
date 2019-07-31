@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button, Link } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 
 function IntroWidget() {
 	return (
@@ -31,10 +31,10 @@ function IntroWidget() {
 					<strong>Related content</strong><br />
 					<small>This content is only available to Autodesk employees, on the Autodesk network.</small>
 					<ul>
-						<li><a target="_blank" href='https://hig.autodesk.com/web/basics/icons'>HIG Icons</a></li>
-						<li><a target="_blank" href='https://share.autodesk.com/:f:/s/HIGDesignerToolkit/EnzL1kM-j6BDoCrSY9vP--EBbrlLn-cijus34ATFOMT7HA?e=Rrj8Nb'>View in abstract</a></li>
-						<li><a target="_blank" href='http://storybook.hig.autodesk.com/selectedKind=Icon'>Code samples</a></li>
-						<li><a target="_blank" href='https://git.autodesk.com/hig/icon-svg'>Download SVG's</a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href='https://hig.autodesk.com/web/basics/icons'>HIG Icons</a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href='https://share.autodesk.com/:f:/s/HIGDesignerToolkit/EnzL1kM-j6BDoCrSY9vP--EBbrlLn-cijus34ATFOMT7HA?e=Rrj8Nb'>View in abstract</a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href='http://storybook.hig.autodesk.com/selectedKind=Icon'>Code samples</a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href='https://git.autodesk.com/hig/icon-svg'>Download SVG's</a></li>
 					</ul>
 				</Grid>
 			</Grid>
