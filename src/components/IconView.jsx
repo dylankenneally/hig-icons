@@ -336,7 +336,7 @@ function IconView() {
 			<TextField label="Search/filter" value={searchFilter} onChange={event => setSearchFilter(event.target.value)} />
 			<table>
 				<tbody>
-					<tr><td>Number of icons</td><td>{iconSet.length}</td></tr>
+					<tr><td>Number of icons</td><td>{filtered.length} of {iconSet.length}</td></tr>
 					{renderItems}
 				</tbody>
 			</table>
