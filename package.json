@@ -8,9 +8,9 @@
     "url": "https://github.com/dylankenneally/hig-icons.git"
   },
   "dependencies": {
-    "@hig/icons": "^3.1.0",
+    "@hig/icons": "^3.3.0",
     "@hig/theme-context": "^3.0.0",
-    "@hig/theme-data": "^2.8.0",
+    "@hig/theme-data": "^2.16.1",
     "@material-ui/core": "^4.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
